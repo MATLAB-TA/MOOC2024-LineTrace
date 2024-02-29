@@ -1,8 +1,8 @@
 # RobotControlExperiment
 ## 基本的な実行方法
 #### GUIを利用する場合
-1. 本リポジトリをクローン，またはzipファイルでダウンロードして展開する．
-2. MATLAB R2020a以降がインストールされたPCで，RobotControlExperimentフォルダ直下の"el_ctrl.mlapp"または"el_ctrl_PID_mlapp"をダブルクリックして実行する．
+1. [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-TA/MOOC2024-LineTrace)をクリックする
+2. MATLAB R2020a以降がインストールされたPCで，RobotControlExperimentフォルダ直下の"el_ctrl.mlapp"または"el_ctrl_PID_mlapp"をダブルクリックして実行する
 
 #### GUIを利用しない場合
 1. 本リポジトリをクローン，またはzipファイルでダウンロードして展開する．
