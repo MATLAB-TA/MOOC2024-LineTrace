@@ -1,17 +1,13 @@
 # RobotControlExperiment
 ## 基本的な実行方法
-#### GUIを利用する場合
-1. [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-TA/MOOC2024-LineTrace)をクリックする
-2. MATLAB R2020a以降がインストールされたPCで，RobotControlExperimentフォルダ直下の"el_ctrl.mlapp"または"el_ctrl_PID_mlapp"をダブルクリックして実行する
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-TA/MOOC2024-LineTrace)
+1. 上のアイコンをクリックし、MATLAB onlineを起動する
+2. 自動的にソースコードがインポートされる
+3. ウィンドウ左部に表示されるフォルダから、"el_ctrl.mlapp"または"el_ctrl_PID_mlapp"を右クリックし、「実行」を選択する
 
-#### GUIを利用しない場合
-1. 本リポジトリをクローン，またはzipファイルでダウンロードして展開する．
-2. MATLAB R2020a以降がインストールされたPCで，"simulation.m"を開く．
-3. MATLABのエディタータブより実行する．
-4. フィールドを変更する場合は"simulation.m"の10行目付近```"field_id = '07';```の部分の番号を，fieldsフォルダ内に存在するフィールド番号に書き換える．
-5. ロボットの初期位置を変更する場合は"robot.m"の2行目付近```init_state = [200; 500; 0]; % ロボットの初期状態 [ posx; posy; theta ];```の値を変更する
-
-## 変更点
+####　シミュレーションの設定変更
+- フィールドを変更する場合は"simulation.m"の10行目付近```"field_id = '07';```の部分の番号を，fieldsフォルダ内に存在するフィールド番号に書き換える．
+- ロボットの初期位置を変更する場合は"robot.m"の2行目付近```init_state = [200; 500; 0]; % ロボットの初期状態 [ posx; posy; theta ];```の値を変更する
 
 ### トラック，8の字を追加
 それぞれidは15と16です
