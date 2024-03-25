@@ -1,43 +1,42 @@
-# RobotControlExperiment
-## 基本的な実行方法
+# *Robot Control Experiment*
+![simulate](https://github.com/MATLAB-TA/MOOC2024-LineTrace/assets/54563775/a45828a8-c775-49a9-b73a-3a7243515665)
+## About
+__*Robot Control Experience*__ は、仮想実験環境を提供するシミュレータです。
+以下の制御アルゴリズムを用いて制御工学の基礎を学びます。
+- フィードフォワード制御
+- バンバン制御
+- P制御
+- PID制御
+
+
+## Requirement
+- MATLAB
+- Control system toolbox
+- Optimization toolbox
+
+本リポジトリのソースコードはmatlab言語で記述されています。
+実行するにはMathWorksアカウントが必要になりますので、お持ちでない方は[こちら](https://jp.mathworks.com/mwaccount/register)よりアカウントの作成を行ってください。
+
+
+## Usage
+
+#### ソースコードのダウンロード
+- __MATLAB Onlineを利用する場合__
+以下のアイコンをクリックすると、自動的にMATLAB Onlineが起動しソースコードがインポートされます。
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-TA/MOOC2024-LineTrace)
-1. 上のアイコンをクリックし、MATLAB onlineを起動する
-2. 自動的にソースコードがインポートされる
-3. ウィンドウ左部に表示されるフォルダから、"el_ctrl.mlapp"または"el_ctrl_PID_mlapp"を右クリックし、「実行」を選択する
 
-##　シミュレーションの設定変更
-- フィールドを変更する場合は"simulation.m"の10行目付近```"field_id = '07';```の部分の番号を，fieldsフォルダ内に存在するフィールド番号に書き換える．
-- ロボットの初期位置を変更する場合は"robot.m"の2行目付近```init_state = [200; 500; 0]; % ロボットの初期状態 [ posx; posy; theta ];```の値を変更する
+- __MATLAB デスクトップを利用する場合__ 
+ソースコードをクローンもしくは、ダウンロードしてください。
+
+#### アプリの実行方法
+実行するファイルは基本的に.mlapp拡張子のファイルになります。
+ウィンドウ左部に表示されるフォルダから、実行したいmlappファイルにカーソルを合わせ、「右クリック」→「実行」を選択するとアプリを起動することができます。
+![execute](https://github.com/MATLAB-TA/MOOC2024-LineTrace/assets/54563775/eae14d83-c0cb-43c3-80bd-ad01d5ce08be)
 
 
-### トラック，8の字を追加
-それぞれidは15と16です
 
-### simulation.mを関数化
-#### 定義
-```MATLAB
-function simulation(field_id, controller_func, control_param)
-```
-- field_id (char配列)<br>
-フィールド番号です．今まで通り．
-- controller_func (関数ポインタ)<br>
-コントローラとして使う関数のポインタ．後述
-- control_param (1*2 double配列)<br>
-制御パラメータ
-  - control_param[1] : 並進速度
-  - control_param[2] : 回転ゲイン
-#### 記述例
-```MATLAB
-simulation('01',@controllers.BANBAN_control, [0.5 0.1])
-```
-#### 参考
-一応，今までと同様にも使えるはず
+## Reference
+edX <span style="color: red; ">追記予定</span>
 
-### サンプルコントローラの整備
-+controllersフォルダ以下に入っている．
-- FF_control<br>
-直進成分のみが入っている．シミュレータの初期コントローラと一緒
-- BANBAN_controller<br>
-バンバン制御
-- P_controller<br>
-P制御
+## 提供
+- SSS 超スマート社会卓越教育院　<span style="color: red; ">追記予定</span>
