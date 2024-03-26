@@ -1,4 +1,4 @@
-# *Ultrasound Simulator*
+# *Ultrasound Simulator* [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MATLAB-TA/MOOC2024-LineTrace)
 <img width="600" alt="スクリーンショット 0006-03-26 17 23 32" src="https://github.com/MATLAB-TA/MOOC2024-LineTrace/assets/54563775/63e0ffe5-792a-478d-a5f1-0f26a1b7f223">
 
 ## About
