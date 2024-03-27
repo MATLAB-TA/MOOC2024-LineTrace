@@ -30,8 +30,3 @@
 ![execute](https://github.com/MATLAB-TA/MOOC2024-LineTrace/assets/54563775/eae14d83-c0cb-43c3-80bd-ad01d5ce08be)
 
 
-## 提供
-<img src="https://github.com/MATLAB-TA/MOOC2024-LineTrace/assets/54563775/a1188d04-fb91-46d2-a752-aef4f1cb7814" width="20%">
-
-東京工業大学 超スマート社会卓越教育院
-
